@@ -1,5 +1,7 @@
 # Attention is all you Need
 
+[Read the full paper here]:-(https://arxiv.org/abs/1706.03762)
+
 # Transformer Paper Implementation Notebook
 
 This Colab notebook provides a paper‑from‑scratch implementation of the original Transformer architecture described in “Attention Is All You Need” (Vaswani et al., 2017) using TensorFlow 2.x and NumPy. It walks you through each component—from tokenization to training—within a single, self‑contained notebook.
