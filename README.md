@@ -8,13 +8,13 @@ This Colab notebook provides a paper‑from‑scratch implementation of the orig
 
 ## Table of Contents
 
-1. [Overview](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#overview)
-2. [Notebook Sections](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#notebook-sections)
-3. [How to Use](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#how-to-use)
-4. [Runtime Requirements](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#runtime-requirements)
-5. [Hyperparameters](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#hyperparameters)
-6. [Troubleshooting & Tips](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#troubleshooting--tips)
-7. [Acknowledgments](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#acknowledgments)
+1. [Overview]
+2. [Notebook Sections]
+3. [How to Use]
+4. [Runtime Requirements]
+5. [Hyperparameters]
+6. [Troubleshooting & Tips]
+7. [Acknowledgments]
 
 ---
 
