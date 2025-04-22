@@ -96,8 +96,6 @@ This notebook demonstrates a minimal Transformer setup on a small ~30 k‑word
 | `batch_size` | 8 | Examples per batch |
 | `EPOCHS` | 61 | Training epochs |
 
-Feel free to tweak these values in the designated cell.
-
 ---
 
 ## Troubleshooting & Tips
