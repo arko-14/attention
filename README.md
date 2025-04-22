@@ -1,6 +1,6 @@
-# attention
+# Attention is all you Need
 
-# Attention is all you need Paper 
+# Transformer Paper Implementation Notebook
 
 This Colab notebook provides a paper‑from‑scratch implementation of the original Transformer architecture described in “Attention Is All You Need” (Vaswani et al., 2017) using TensorFlow 2.x and NumPy. It walks you through each component—from tokenization to training—within a single, self‑contained notebook.
 
@@ -8,20 +8,19 @@ This Colab notebook provides a paper‑from‑scratch implementation of the orig
 
 ## Table of Contents
 
-1. [Overview](\)
-2. [Notebook Sections](\)
-3. [How to Use](\)
-4. [Runtime Requirements](\)
-5. [Hyperparameters](\)
-6. [Troubleshooting & Tips](\)
-7. [Acknowledgments](\)
+1. [Overview](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#overview)
+2. [Notebook Sections](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#notebook-sections)
+3. [How to Use](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#how-to-use)
+4. [Runtime Requirements](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#runtime-requirements)
+5. [Hyperparameters](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#hyperparameters)
+6. [Troubleshooting & Tips](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#troubleshooting--tips)
+7. [Acknowledgments](https://chatgpt.com/c/6806404f-601c-800b-b291-dfb790cb3770#acknowledgments)
 
 ---
 
 ## Overview
 
-This notebook demonstrates a minimal Transformer setup on a small ~30 k‑word corpus, with reduced model size (2 layers, `d_model=64`, `num_heads=2`) 
-It contains:
+This notebook demonstrates a minimal Transformer setup on a small ~30 k‑word corpus, with reduced model size (2 layers, `d_model=64`, `num_heads=2`). it contains:
 
 - Building a vocabulary and tokenizing sentences
 - Implementing positional encodings
@@ -29,6 +28,7 @@ It contains:
 - Encoder and decoder layers (with masked self‑attention and cross‑attention)
 - A custom learning‑rate schedule matching the original paper
 - Training loop with padding and look‑ahead masks
+- New dataset derived from the 4.5M English–German WMT14 corpus
 
 ---
 
@@ -60,7 +60,7 @@ It contains:
     
 7. **Results & Debugging**
     
-    Inspect flat loss/accuracy
+    Inspect flat loss/accuracy, examine logits, and apply sanity checks.
     
 
 ---
@@ -96,7 +96,7 @@ It contains:
 | `batch_size` | 8 | Examples per batch |
 | `EPOCHS` | 61 | Training epochs |
 
-
+Feel free to tweak these values in the designated cell.
 
 ---
 
@@ -117,4 +117,5 @@ Inspired by community TensorFlow tutorials and guided debugging tips.
 
 ---
 
-*For any suggestions or improvements,feel free to pull request to this model*
+*Enjoy exploring Transformers!*
+
