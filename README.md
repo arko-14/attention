@@ -1,6 +1,6 @@
 # Attention is all you Need
 
-[Read the full paper here]:-(https://arxiv.org/abs/1706.03762)
+# [Read the full paper here]:-(https://arxiv.org/abs/1706.03762)
 
 # Transformer Paper Implementation Notebook
 
